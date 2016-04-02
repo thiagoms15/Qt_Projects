@@ -23,6 +23,10 @@ private slots:
     void about();
     void exitAll();
     void documentWasModified();
+    void selectAll();
+    void copyAll();
+    void copyText();
+    void pasteText();
 
 private:
     void createActions();
@@ -45,12 +49,24 @@ private:
     QMenu *helpMenu;
     QToolBar *fileToolBar;
     QToolBar *editToolBar;
+
+    // Items FileMenu
     QAction *newAct;
     QAction *openAct;
     QAction *saveAct;
     QAction *saveAsAct;
     QAction *exitAct;
+
+    //Items EditMenu
+    QAction *selectAllAct;
+    QAction *copyAllAct;
+    QAction *copyTextAct;
+    QAction *pasteTextAct;
+
+    //Items AboutMenu
     QAction *aboutAct;
+
+
 
 };
 

@@ -71,7 +71,22 @@ MainWindow::~MainWindow()
         delete aboutAct;
         aboutAct = NULL;
     }
-
+    if(NULL!=selectAllAct){
+        delete selectAllAct;
+        selectAllAct = NULL;
+    }
+    if(NULL!=copyAllAct){
+        delete copyAllAct;
+        copyAllAct = NULL;
+    }
+    if(NULL!=copyTextAct){
+        delete copyTextAct;
+        copyTextAct = NULL;
+    }
+    if(NULL!=pasteTextAct){
+        delete pasteTextAct;
+        pasteTextAct = NULL;
+    }
 
 }
 
@@ -174,6 +189,25 @@ void MainWindow::createActions()
     connect(aboutAct, SIGNAL(triggered()), this, SLOT(about()));
 
 
+    selectAllAct = new QAction(tr("&SelectAll"), this);
+    selectAllAct->setShortcuts(QKeySequence::SelectAll);
+    selectAllAct->setStatusTip(tr("Select and All"));
+    connect(selectAllAct, SIGNAL(triggered()), this, SLOT(selectAll()));
+
+    copyAllAct = new QAction(tr("&CopyAll"), this);
+    copyAllAct->setStatusTip(tr("Select and Copy All"));
+    connect(copyAllAct, SIGNAL(triggered()), this, SLOT(copyAll()));
+
+    copyTextAct = new QAction(tr("&Copy"), this);
+    copyTextAct->setShortcuts(QKeySequence::Copy);
+    copyTextAct->setStatusTip(tr("Copy the text"));
+    connect(copyTextAct, SIGNAL(triggered()), this, SLOT(copyText()));
+
+    pasteTextAct = new QAction(tr("&Paste"), this);
+    pasteTextAct->setShortcuts(QKeySequence::Paste);
+    pasteTextAct->setStatusTip(tr("Select All"));
+    connect(pasteTextAct, SIGNAL(triggered()), this, SLOT(pasteText()));
+
 }
 
 void MainWindow::createMenus()
@@ -187,7 +221,10 @@ void MainWindow::createMenus()
     fileMenu->addAction(exitAct);
 
     editMenu = menuBar()->addMenu(tr("&Edit"));
-
+    editMenu->addAction(copyTextAct);
+    editMenu->addAction(pasteTextAct);
+    editMenu->addAction(selectAllAct);
+    editMenu->addAction(copyAllAct);
 
     menuBar()->addSeparator();
 
@@ -203,6 +240,8 @@ void MainWindow::createToolBars()
     fileToolBar->addAction(saveAct);
 
     editToolBar = addToolBar(tr("Edit"));
+    editToolBar->addAction(copyTextAct);
+    editToolBar->addAction(pasteTextAct);
 
 }
 
@@ -312,4 +351,29 @@ QString MainWindow::strippedName(const QString &fullFileName)
 void MainWindow::exitAll()
 {
     QApplication::quit();
+}
+
+void MainWindow::selectAll()
+{
+    textEdit->selectAll();
+}
+
+void MainWindow::copyAll()
+{
+    textEdit->selectAll();
+    textEdit->copy();
+}
+
+void MainWindow::copyText()
+{
+    if(!textEdit->textCursor().hasSelection()){
+        QMessageBox::information(this, tr("Warning"),
+                           tr("<b>No selection</b>. Please select <br> the text."));
+    }
+    textEdit->copy();
+}
+
+void MainWindow::pasteText()
+{
+    textEdit->paste();
 }
