@@ -1,0 +1,26 @@
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes.dex : \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtActivity.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtActivity$4.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtActivity$3$1.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtActivity$2.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtActivity$1.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtApplication$InvokeResult.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtActivity$5.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtActivity$6.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtApplication.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtActivity$3.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/qt5/android/bindings/QtActivity$3$1$1.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/example/primeiroApp/R$attr.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/example/primeiroApp/BuildConfig.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/example/primeiroApp/R.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/example/primeiroApp/R$array.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/example/primeiroApp/R$string.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/qtproject/example/primeiroApp/R$layout.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/kde/necessitas/ministro/IMinistroCallback.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/kde/necessitas/ministro/IMinistro$Stub$Proxy.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/kde/necessitas/ministro/IMinistro$Stub.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/kde/necessitas/ministro/IMinistroCallback$Stub$Proxy.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/kde/necessitas/ministro/IMinistroCallback$Stub.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/classes/org/kde/necessitas/ministro/IMinistro.class \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/dexedLibs/QtAndroid-bundled-1b353e4cf966d13906d64a48c32db4b2.jar \
+/home/thiago/Documents/Qt/primeiro_aplicativo/build-primeiroApp-Android_for_armeabi_v7a_GCC_4_9_Qt_5_5_1-Debug/android-build/bin/dexedLibs/QtAndroidAccessibility-bundled-a477f41b4ee0513e844ace0f1b1a79c5.jar \
