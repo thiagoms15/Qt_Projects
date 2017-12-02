@@ -21,3 +21,6 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui \
     secdialog.ui
+
+RESOURCES += \
+    resource.qrc

@@ -16,14 +16,27 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>110</y>
-     <width>51</width>
+     <x>160</x>
+     <y>30</y>
+     <width>81</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>Hello</string>
+    <string>Hello World</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPicHello">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>281</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
  </widget>
