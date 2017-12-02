@@ -12,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
     int w  = ui->labelPic->width();
     int h = ui->labelPic->height();
     ui->labelPic->setPixmap(pix.scaled(w, h, Qt::KeepAspectRatio));
+    ui->mainToolBar->hide();
 }
 
 MainWindow::~MainWindow()
@@ -34,6 +35,8 @@ void MainWindow::on_pushButtonLogin_clicked()
     else
     {
         QMessageBox::warning(this, "Login", "Username or password are not correct.");
+        ui->lineEditUserName->setText("");
+        ui->lineEditPassword->setText("");
         ui->statusBar->showMessage("Username is 'user' and password is 'user'.", 3000);
     }
 }
