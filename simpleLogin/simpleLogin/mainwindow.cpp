@@ -1,11 +1,17 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QMessageBox>
+#include <QPixmap>
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    QPixmap pix(":/images/images/lock-icon.png");
+    int w  = ui->labelPic->width();
+    int h = ui->labelPic->height();
+    ui->labelPic->setPixmap(pix.scaled(w, h, Qt::KeepAspectRatio));
 }
 
 MainWindow::~MainWindow()
@@ -27,6 +33,7 @@ void MainWindow::on_pushButtonLogin_clicked()
     }
     else
     {
-     QMessageBox::warning(this, "Login", "Username or password are not correct.");
+        QMessageBox::warning(this, "Login", "Username or password are not correct.");
+        ui->statusBar->showMessage("Username is 'user' and password is 'user'.", 3000);
     }
 }
