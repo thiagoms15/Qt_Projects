@@ -2,6 +2,10 @@
 #include "ui_secdialog.h"
 #include <QPixmap>
 
+/**
+ * @brief SecDialog::SecDialog
+ * @param parent
+ */
 SecDialog::SecDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::SecDialog)
@@ -13,6 +17,9 @@ SecDialog::SecDialog(QWidget *parent) :
     ui->labelPicHello->setPixmap(pix.scaled(w, h, Qt::KeepAspectRatio));
 }
 
+/**
+ * @brief SecDialog::~SecDialog
+ */
 SecDialog::~SecDialog()
 {
     delete ui;

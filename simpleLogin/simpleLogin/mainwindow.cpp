@@ -3,6 +3,10 @@
 #include <QMessageBox>
 #include <QPixmap>
 
+/**
+ * @brief MainWindow::MainWindow
+ * @param parent
+ */
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -15,11 +19,17 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->mainToolBar->hide();
 }
 
+/**
+ * @brief MainWindow::~MainWindow
+ */
 MainWindow::~MainWindow()
 {
     delete ui;
 }
 
+/**
+ * @brief MainWindow::on_pushButtonLogin_clicked
+ */
 void MainWindow::on_pushButtonLogin_clicked()
 {
     QString username = ui->lineEditUserName->text();
